@@ -16,10 +16,10 @@ no Jekyll required). Ready to deploy on GitHub Pages.
 ## Deploy to GitHub Pages (user/organization site)
 
 A repo named exactly `<your-github-username>.github.io` is published at
-`https://<your-github-username>.github.io/` with no extra configuration.
+`https://Bioinfo_Wang.github.io/` with no extra configuration.
 
 1. **Create the repository**
-   - Go to https://github.com/new
+   - Go to https://github.com/ytwang21/Bioinfo_Wang.github.io
    - Repository name: `Bioinfo_Wang.github.io` (must match your GitHub username exactly)
    - Keep it **Public**, don't add a README/License (you already have files)
    - Click **Create repository**
@@ -36,7 +36,7 @@ A repo named exactly `<your-github-username>.github.io` is published at
    git add .
    git commit -m "Initial homepage"
    git branch -M main
-   git remote add origin https://github.com/ytwang21/ytwang21.github.io.git
+   git remote add origin https://github.com/ytwang21/Bioinfo_Wang.github.io.git
    git push -u origin main
    ```
 
