@@ -1,5 +1,244 @@
----
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuting Wang (王玉婷) — Bioinformatics, Tongji University</title>
+<meta name="description" content="Yuting Wang — PhD candidate in Bioinformatics at Tongji University. Building single-cell atlases and aging clocks connecting stromal cell biology with tumor immunology.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%231F5C56%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="#top">YW<span class="wordmark-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#honors">Honors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow-free-label">PhD Candidate in Bioinformatics · Tongji University</p>
+        <h1>Yuting Wang <span class="cjk-name">王玉婷</span></h1>
+        <p class="hero-statement">I build single-cell atlases and aging clocks from stromal cells,
+        looking for the mechanisms that link tissue aging to the tumor immune microenvironment.</p>
+        <div class="hero-links">
+          <a class="btn btn-primary" href="#research">See my research</a>
+          <a class="btn btn-ghost" href="mailto:2111271@tongji.edu.cn">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <svg class="umap-motif" viewBox="0 0 360 360" aria-hidden="true">
+          <g class="umap-dots"></g>
+        </svg>
+        <img class="portrait" src="assets/img/avatar.jpg" alt="Portrait of Yuting Wang">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap section-grid">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="section-body">
+        <p>I'm a PhD candidate at <strong>Tongji University</strong>, working under
+        <strong>Prof. Chenfei Wang</strong> on the single-cell biology of aging. My degree is
+        formally in Biology, but my day-to-day work sits in bioinformatics: turning single-cell
+        transcriptomic data into biological signal, and biological signal into interpretable
+        models.</p>
+        <p>My current project, <strong>TabulaStromal</strong>, integrates single-cell
+        transcriptomes of stromal cells — fibroblasts, endothelial cells, and their neighbors —
+        across tissues to build a stromal aging clock, and to trace the genes and pathways that
+        drive stromal aging back to potential therapeutic targets. Earlier, I helped build
+        <strong>TISCH2</strong>, a tumor microenvironment single-cell database published in
+        <em>Nucleic Acids Research</em>.</p>
+        <p>I'm drawn to methods that stay legible: elastic net over black boxes when a
+        coefficient can point back to a gene, SHAP when a model must explain itself. My longer-term
+        interest is in what stromal aging and tumor immunology can tell each other — and I'm
+        looking for a postdoctoral position to pursue that question.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section section-alt" id="research">
+    <div class="wrap section-grid">
+      <div class="section-head">
+        <h2>Research</h2>
+      </div>
+      <div class="section-body">
+
+        <article class="project">
+          <div class="project-head">
+            <h3>TabulaStromal — a single-cell aging clock for stromal cells</h3>
+            <span class="project-tag">First author · 2023 – present</span>
+          </div>
+          <p>Integrates and annotates single-cell transcriptomes of stromal cells across
+          datasets to build a robust aging clock. The project identifies molecular signatures
+          of stromal aging and the genes and pathways behind it, aiming to surface therapeutic
+          targets for aging-related disease. Manuscript in preparation.</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>TISCH2 — Tumor Immune Single-cell Hub</h3>
+            <span class="project-tag">Co-first author (2nd) · 2021 – 2023</span>
+          </div>
+          <p>Curated and manually annotated 190 human single-cell datasets of the tumor immune
+          microenvironment, and built and maintained the database's website — handling both the
+          data pipeline and the front and back end of the platform, plus ongoing user support.
+          Published in <em>Nucleic Acids Research</em>.</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Fudan Summer School of Life Sciences</h3>
+            <span class="project-tag">Participant · Jul – Aug 2024</span>
+          </div>
+          <p>A 21-day, three-module program in biology and bioinformatics, with lectures from
+          researchers across the field alongside lab visits and hands-on training.</p>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Bioinformatics Summer Training — Teaching Assistant</h3>
+            <span class="project-tag">TA · Jul – Sep 2022</span>
+          </div>
+          <p>Led one week of a summer training program on bioinformatics tools and methods:
+          preparing and presenting materials, and answering questions on assignments.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="section" id="publications">
+    <div class="wrap section-grid">
+      <div class="section-head">
+        <h2>Publications</h2>
+      </div>
+      <div class="section-body">
+        <ol class="pub-list">
+          <li>
+            <p class="pub-title">TISCH2: expanded datasets and new tools for single-cell
+            transcriptome analyses of the tumor microenvironment</p>
+            <p class="pub-authors">Han Y<sup>#</sup>, <strong>Wang Y<sup>#</sup></strong>, Dong X<sup>#</sup>,
+            Sun D, Liu Z, Yue J, Wang H, Li T*, Wang C*.</p>
+            <p class="pub-venue">Nucleic Acids Research, 2023 · gkac959
+            <a href="https://doi.org/10.1093/nar/gkac959" target="_blank" rel="noopener">doi.org/10.1093/nar/gkac959</a>
+            <span class="pub-role">Co-first author (2nd)</span></p>
+          </li>
+          <li>
+            <p class="pub-title">Spatiotemporal analyses of the pan-cancer single-cell landscape
+            reveal widespread profibrotic ecotypes associated with tumor immunity</p>
+            <p class="pub-authors">Han Y, Zhang L, Sun D, Cao G, <strong>Wang Y</strong>, Yue J,
+            Hu J, Dong Z, Li F, Li T, Zhang P, Wu Q*, Wang C*.</p>
+            <p class="pub-venue">Nature Cancer, 2025
+            <span class="pub-role">Co-author</span></p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / EDUCATION -->
+  <section class="section section-alt" id="experience">
+    <div class="wrap section-grid">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="section-body">
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-date">2021.09 – 2027.06</div>
+            <div class="timeline-content">
+              <h3>Tongji University</h3>
+              <p>PhD in Biology, direct-admission track · Advisor: Prof. Chenfei Wang</p>
+              <p class="muted">Research focus: stromal cell aging, aging clock modeling,
+              single-cell transcriptomic data analysis.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">2017.09 – 2021.06</div>
+            <div class="timeline-content">
+              <h3>Harbin Medical University</h3>
+              <p>B.Eng. in Biomedical Engineering</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- HONORS -->
+  <section class="section" id="honors">
+    <div class="wrap section-grid">
+      <div class="section-head">
+        <h2>Honors &amp; Awards</h2>
+      </div>
+      <div class="section-body">
+        <ul class="honor-list">
+          <li><span class="honor-year">2020</span> International Contest in Modeling (ICM/MCM) — International Second Prize <span class="muted">(team leader)</span></li>
+          <li><span class="honor-year">2019</span> International Contest in Modeling (ICM/MCM) — S Prize <span class="muted">(team leader)</span></li>
+          <li><span class="honor-year">2019</span> National Undergraduate Mathematical Modeling Contest, Heilongjiang — Provincial Third Prize <span class="muted">(team leader)</span></li>
+          <li><span class="honor-year">2019</span> Outstanding Student Cadre &amp; Advanced Class Collective, Harbin Medical University</li>
+          <li><span class="honor-year">2018</span> National Undergraduate Mathematical Modeling Contest, Heilongjiang — Provincial Second Prize <span class="muted">(team leader)</span></li>
+          <li><span class="honor-year">2018–20</span> "Three-Good Student," Harbin Medical University <span class="muted">(3 consecutive years)</span></li>
+          <li><span class="honor-year">Undergrad</span> First-Class Scholarship ×2, Special-Class Scholarship ×2, National Encouragement Scholarship ×3, Outstanding Thesis, Outstanding Graduate</li>
+          <li><span class="honor-year">Graduate</span> Tongji Outstanding PhD Scholarship; Social Scholarship</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Get in touch</h2>
+      </div>
+      <p class="contact-lede">Looking to talk about stromal aging, single-cell methods, or
+      postdoctoral opportunities bridging aging biology and tumor immunology — my inbox is open.</p>
+      <div class="contact-links">
+        <a href="mailto:2111271@tongji.edu.cn">2111271@tongji.edu.cn</a>
+        <a href="https://github.com/ytwang21" target="_blank" rel="noopener">github.com/ytwang21</a>
+        <a href="https://doi.org/10.1093/nar/gkac959" target="_blank" rel="noopener">TISCH2 database</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Yuting Wang · Tongji University</span>
+    <span class="muted">Built with plain HTML &amp; CSS</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
